@@ -1,0 +1,31 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "A website about who i am, and what i do",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobiasras/portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "home",
+    "about",
+    "me"
+  ],
+  "author": "tobiasras",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tobiasras/portfolio/issues"
+  },
+  "homepage": "https://github.com/tobiasras/portfolio#readme"
+}

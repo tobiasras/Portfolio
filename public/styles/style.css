@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "Droid Sans", monospace;
+}
+
+.mb {
+    margin-bottom: 1em;
+}
+
+* {
+    font-family: "Droid Sans", monospace;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+a {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.btn {
+    background: #242626;
+    color: aliceblue;
+    display: inline-block;
+    padding: 0.3em 0.6em;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 0, 0.63);
+}
+
+body {
+    display: grid;
+    grid-template-columns: 25em 1fr 1fr 1fr;
+}
+
+.container {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+aside {
+
+}
+
+.side-section {
+    padding: 1em;
+    margin-bottom: 3em;
+}
+
+header {
+    margin-bottom: 3em;
+}
+
+section {
+    margin-bottom: 3em;
+}
+
+.project-menu {
+    grid-column-start: 1;
+}
+
+.req-list p {
+    margin-bottom: 0.3em;
+    margin-top: 0.3em;
+}
+
+.b {
+    font-weight: bold;
+}
+
